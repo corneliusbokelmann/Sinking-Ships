@@ -1,2 +1,6 @@
-//was geht ab alter
-//soll nen krasses worksheet werden
+//Wie gehts wie stehts das ist ein erstes Scala Programm
+val ersteValue = "Hello World!"
+var ersteVariable = "Tschüss"
+
+println(ersteValue)
+println(ersteVariable)
