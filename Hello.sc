@@ -11,6 +11,8 @@ val c = a + b
 val ausgabeString = s"$a $b $c"
 
 
+
+
 var str1 = "Schiffe "
 var str2 = "versenken ist"
 
@@ -21,14 +23,14 @@ var string2 = "Versuch"
 string1.concat(string2)
 println(string1)
 
-var s:Array[String]= new Array[String](4)
-s(0)="Kreuzer"
-s(1)="Schlachtschiff"
-s(2)="Torpedoboot"
-s(3)="U-Boot"
-s(4)="Flugzeugträger"
+var s: Array[String] = new Array[String](5)
+s(0) = "Kreuzer"
+s(1) = "Schlachtschiff"
+s(2) = "Torpedoboot"
+s(3) = "U-Boot"
+s(4) = "Flugzeugträger"
 
-for ( x <- s ) {
+for (x <- s) {
   println(x)
 }
 
