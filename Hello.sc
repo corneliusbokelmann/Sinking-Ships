@@ -21,6 +21,18 @@ var string2 = "Versuch"
 string1.concat(string2)
 println(string1)
 
+var s:Array[String]= new Array[String](4)
+s(0)="Kreuzer"
+s(1)="Schlachtschiff"
+s(2)="Torpedoboot"
+s(3)="U-Boot"
+s(4)="Flugzeugträger"
+
+for ( x <- s ) {
+  println(x)
+}
+
+
 /* TODO: Jetzt hier noch ein bisschen vielleicht mit Strings arbeiten
   ein paar erstellen und dann irgendwie zusammensetzen vielleicht, dann ein Array erstellen, befüllen
   und wenns zeitlich geht noch mit einer Schleife auslesen oder sowas
